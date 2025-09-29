@@ -1,0 +1,74 @@
+{
+  // Default state for all rules
+  "default": true,
+
+  // Path to resolve relative links
+  "basePath": "",
+
+  // Line length
+  "line-length": {
+    "line_length": 120,
+    "code_blocks": false,
+    "tables": false,
+    "level": "warning"
+  },
+
+  // Headings
+  "heading-style": {
+    "style": "atx"
+  },
+
+  // Lists
+  "ul-style": {
+    "style": "dash"
+  },
+
+  // Links
+  "no-bare-urls": false,
+
+  // References
+  "reference-links": false,
+  "repeated-same-reference": false,
+
+  // Code
+  "fenced-code-language": false,
+  "code-block-style": {
+    "style": "fenced"
+  },
+
+  // Tables
+  "table-pipe-style": {
+    "style": "leading_and_trailing"
+  },
+
+  // Emphasis
+  "emphasis-style": {
+    "style": "asterisk"
+  },
+
+  // Strong
+  "strong-style": {
+    "style": "asterisk"
+  },
+
+  // Hard tabs
+  "no-hard-tabs": {
+    "code_blocks": false
+  },
+
+  // Trailing spaces
+  "no-trailing-spaces": {
+    "br_spaces": 2
+  },
+
+  // Blank lines
+  "single-trailing-newline": false,
+  "no-multiple-space-blockquote": false,
+  "no-multiple-space-atx-closed": false,
+
+  // HTML
+  "html": false,
+
+  // Custom rules
+  "custom-rules": []
+}
