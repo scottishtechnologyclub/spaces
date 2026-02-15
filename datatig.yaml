@@ -1,0 +1,28 @@
+title: Scottish Technology Club - Spaces
+description: Source at https://github.com/scottishtechnologyclub/spaces
+types:
+- id: spaces
+  directory: content
+  default_format: md
+  fields:
+  - id: name
+    key: name
+    title: Name
+  - id: city
+    key: city
+    title: City
+  - id: web
+    key: web
+    title: Web
+    type: URL
+  - id: linkedin
+    key: linkedin
+    title: LinkedIn
+    type: URL
+  - id: bluesky
+    key: bluesky
+    title: BlueSky
+    type: URL
+githost:
+  url: scottishtechnologyclub/spaces
+  primary_branch: main
